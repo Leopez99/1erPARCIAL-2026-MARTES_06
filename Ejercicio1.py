@@ -19,6 +19,7 @@ class Pokemon:
     def __str__(self):
         return ("Nombre: " + self.nombre
                 + ", Tipo: " + self.tipo
-                + ", Nivel: " + str(self.nivel))
+                + ", Nivel:" + str(self.nivel))
+
 
 
