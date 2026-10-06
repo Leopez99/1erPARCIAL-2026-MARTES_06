@@ -14,8 +14,6 @@ class PokemonNode:
 
 """
 Teoria: Cual es el tiempo de ejecucion estimado de la funcion buscar_pokemon()?
-Es O(n), o sea tiempo lineal, donde n es la cantidad de nodos de la lista.
-
-la funcion va nodo por nodo, comparando el nombre. 
+Es O(n), o sea tiempo lineal
 En cada paso hace una comparacion y se llama a si misma con el siguiente nodo.
 """
